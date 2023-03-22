@@ -1,0 +1,27 @@
+.pane {
+    -fx-background-color: #d3d3d3;
+}
+
+.label {
+    -fx-font-family: "DejaVu Sans Mono";
+    -fx-font-size: 30px;
+
+    -fx-alignment: "center";
+}
+
+.vbox {
+    -fx-spacing: 10px;
+}
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-alignment: "center";
+}
+
+.textField {
+    -fx-alignment: "center";
+    -fx-pref-width: 56px;
+    -fx-pref-height: 56px;
+
+    -fx-font-size: 20px;
+}

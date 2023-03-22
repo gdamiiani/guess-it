@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
+            prefWidth="600.0" styleClass="pane" stylesheets="@../styles/game.css" xmlns="http://javafx.com/javafx/19"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.damiiani.guessit.controllers.GameController">
+   <VBox alignment="CENTER" layoutY="63.0" prefHeight="392.0" prefWidth="600.0" styleClass="vbox"
+         stylesheets="@../styles/game.css">
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField00" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField01" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField02" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField03" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField04" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField10" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField11" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField12" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField13" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField14" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField20" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField21" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField22" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField23" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField24" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField30" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField31" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField32" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField33" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField34" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField40" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField41" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField42" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField43" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField44" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="hbox" stylesheets="@../styles/game.css">
+         <TextField fx:id="textField50" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField51" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField52" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField53" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+         <TextField fx:id="textField54" disable="true" styleClass="textField" stylesheets="@../styles/game.css"/>
+      </HBox>
+   </VBox>
+   <Label layoutY="14.0" prefHeight="35.0" prefWidth="600.0" stylesheets="@../styles/game.css" text="Guess It"
+          textAlignment="CENTER"/>
+   <Button layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#goBack" styleClass="menuButton"
+           stylesheets="@../styles/ending.css" text="Return"/>
+</AnchorPane>

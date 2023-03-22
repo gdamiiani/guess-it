@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jlink" name="Adivinha">
+    <output-path>$PROJECT_DIR$/out/artifacts/Adivinha</output-path>
+    <root id="root">
+      <element id="module-output" name="Adivinha" />
+    </root>
+  </artifact>
+</component>
